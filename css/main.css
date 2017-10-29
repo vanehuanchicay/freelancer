@@ -1,15 +1,14 @@
-
-*{
+*{ /* selector universal margen 0 */
   margin: 0;
 }
-header{
+header{  /* propiedades para el header */
   width:1400px;
   height: 100px;
   background-color: #323c53;
   margin-top: 0;
   position: fixed;
 }
-header span{
+header span{ /* propiedades para span en el header */
   font-family: Montserrat;
   display: inline-block;
   margin-top: 30px;
@@ -17,14 +16,14 @@ header span{
   font-weight: 700;
   margin-left: 80px;
 }
-a{
+a{ /* propiedades para anchor */
   color: white;
   text-decoration: none;
 }
-.datos a:hover{
+.datos a:hover{ /* anchor hover */
   color: #00c89e;
 }
-header .datos{
+header .datos{ /* propiedades para div datos */
   font-family: Montserrat;
   font-size: 100%;
   font-weight: 900;
@@ -33,21 +32,21 @@ header .datos{
   word-spacing: 20px;
 }
 
-.contenedor{
+.contenedor{ /* contenido principal primera sección*/
   width: auto;
   height: 780px;
   background-color: #18bc9c;
   margin-top: 0px;
 }
 
-.contenedor img{
+.contenedor img{ /* imagen central de la primera sección */
   margin-left: 480px;
   margin-top: 190px;
   width: 20%;
   margin-left: 520px;
 }
 
-.contenedor span{
+.contenedor span{ /* propiedades a texto central */
   font-family: Montserrat;
   display: inline-block;
   width: auto;
@@ -60,7 +59,7 @@ header .datos{
   margin-bottom: 30px;
 }
 
- .contenedor .hruno{
+ .contenedor .hruno{ /* propiedades del primer hr */
   display: inline-block;
   width: 110px;
   height: 5px;
@@ -70,7 +69,7 @@ header .datos{
   margin-bottom: 8px;
 }
 
-.contenedor .hrdos{
+.contenedor .hrdos{ /* propiedades del segundo hr */
   display: inline-block;
   width: 110px;
   height: 5px;
@@ -80,12 +79,12 @@ header .datos{
   margin-bottom: 8px;
 }
 
-.contenedor .fa-star{
+.contenedor .fa-star{ /* icono estrella */
   font-size: 180%;
   color: white;
 }
 
- .contenedor .subtitulo{
+ .contenedor .subtitulo{ /* propiedades a span subtitulo */
   display: inline-block;
   margin-left: 300px;
   font-family: Lato;
@@ -93,7 +92,7 @@ header .datos{
   font-weight: normal;
 }
 
-.contenedordos{
+.contenedordos{ /* contenido principal segunda sección */
   width: auto;
   height: 900px;
   background-color: white;
@@ -101,7 +100,7 @@ header .datos{
 }
 
 
-.contenedordos span{
+.contenedordos span{ /* título */
   display:block;
   font-weight: 700;
   font-size: 300%;
@@ -110,7 +109,7 @@ header .datos{
   color: #27292e;
 }
 
-.contenedordos .hruno{
+.contenedordos .hruno{ /* primer hr sección dos */
  display: inline-block;
  width: 110px;
  height: 5px;
@@ -121,7 +120,7 @@ header .datos{
  margin-bottom: 8px;
 }
 
-.contenedordos .hrdos{
+.contenedordos .hrdos{ /* segundo hr sección dos */
  display: inline-block;
  width: 110px;
  height: 5px;
@@ -131,12 +130,12 @@ header .datos{
  margin-bottom: 8px;
 }
 
-.contenedordos .fa-star{
+.contenedordos .fa-star{ /* segundo icono estrella */
  font-size: 180%;
  color:#323c53;
 }
 
-.contenedordos img:nth-child(1){
+.contenedordos img:nth-child(1){ /* primera imagen */
   display: inline-block;
   float: left;
   width: 350px;
@@ -146,7 +145,7 @@ header .datos{
   margin-top: 25px;
 }
 
-.contenedordos img:nth-child(2){
+.contenedordos img:nth-child(2){ /* segunda imagen */
   display: inline-block;
   float: left;
   width: 350px;
@@ -155,7 +154,7 @@ header .datos{
   margin-top: 25px;
 }
 
-.contenedordos img:nth-child(3){
+.contenedordos img:nth-child(3){ /* tercera imagen */
   display: inline-block;
   float: left;
   width: 350px;
@@ -163,7 +162,7 @@ header .datos{
   margin-top: 25px;
 }
 
-.contenedordos img:nth-child(4){
+.contenedordos img:nth-child(4){ /* primera imagen segunda fila */
   display: inline-block;
   float: left;
   width: 350px;
@@ -172,7 +171,7 @@ header .datos{
   margin-left: 90px;
 }
 
-.contenedordos img:nth-child(5){
+.contenedordos img:nth-child(5){ /* segunda imagen segunda fila */
   display: inline-block;
   float: left;
   width: 350px;
@@ -181,7 +180,7 @@ header .datos{
   margin-left: 35px;
 }
 
-.contenedordos img:nth-child(6){
+.contenedordos img:nth-child(6){ /* tercera imagen segunda fila */
   display: inline-block;
   float: left;
   width: 350px;
@@ -190,14 +189,14 @@ header .datos{
   margin-left: 35px;
 }
 
-.about{
+.about{ /* contenido principal tercera sección*/
   margin-top: 0px;
   height: 580px;
   background-color: #00c89e;
   text-align: center;
 }
 
-.about span{
+.about span{ /* título */
   display:block;
   font-weight: 700;
   font-size: 300%;
@@ -207,7 +206,7 @@ header .datos{
   text-align: center;
 }
 
-.about .hruno{
+.about .hruno{ /* primer hr sección tres*/
  display: inline-block;
  width: 110px;
  height: 5px;
@@ -218,7 +217,7 @@ header .datos{
  margin-bottom: 8px;
 }
 
-.about .hrdos{
+.about .hrdos{ /* segundo hr sección tres */
  display: inline-block;
  width: 110px;
  height: 5px;
@@ -228,12 +227,12 @@ header .datos{
  margin-bottom: 8px;
 }
 
-.about .fa-star{
+.about .fa-star{ /* tercer icono estrella */
  font-size: 180%;
  color:#fff;
 }
 
-.about div p{
+.about div p{ /* texto principal sección tres */
   display: inline-block;
   margin-top: 30px;
   width: 371px;
@@ -244,7 +243,7 @@ header .datos{
   line-height: 32px;
   padding-right: 30px;
 }
-.about div p:nth-child(2){
+.about div p:nth-child(2){ /* propiedades a segundo parrafo */
   display: inline-block;
   margin-top: 10px;
   width: 370px;
@@ -255,7 +254,7 @@ header .datos{
   line-height: 32px;
 }
 
-.boton{ /* arreglar boton */
+.boton{ /* botón */
   width: 200px;
   border: 2px solid #fff;
   padding: 11px 3px;
@@ -267,7 +266,7 @@ header .datos{
   color: white;
 }
 
-.boton a:hover{
+.boton a:hover{ /* botón en hover */
 
   color: #00c89e;
   padding: 2px;
@@ -275,7 +274,7 @@ header .datos{
   background-color: #fff;
 }
 
-.contactme{
+.contactme{ /* contenido principal cuarta sección  */
   width: auto;
   height: 900px;
   background-color: #fff;
@@ -283,7 +282,7 @@ header .datos{
   text-align: center;
 }
 
-.contactme span{
+.contactme span{ /* título */
   display:block;
   font-weight: 700;
   font-size: 300%;
@@ -293,7 +292,7 @@ header .datos{
   text-align: center;
 }
 
-.contactme .hruno{
+.contactme .hruno{ /* primer hr sección cuatro*/
  display: inline-block;
  width: 110px;
  height: 5px;
@@ -304,7 +303,7 @@ header .datos{
  margin-bottom: 8px;
 }
 
-.contactme .hrdos{
+.contactme .hrdos{ /* segundo hr sección cuatro*/
  display: inline-block;
  width: 110px;
  height: 5px;
@@ -314,12 +313,12 @@ header .datos{
  margin-bottom: 8px;
 }
 
-.contactme .fa-star{
+.contactme .fa-star{ /* estrella sección cuatro*/
  font-size: 180%;
  color:#323c53;
 }
 
-.contactme ul li{
+.contactme ul li{ /* lista desordenada */
   width: 770px;
   padding-bottom: 35px;
   font-family: Lato;
@@ -331,11 +330,11 @@ header .datos{
   margin-top: 40px;
   border-bottom: 1px solid #eee;
 }
-.contactme ul li:last-child{
+.contactme ul li:last-child{ /* último li de la lista desordenada */
   padding-bottom: 180px;
 }
 
-.contactme a{
+.contactme a{ /* anchor propiedades */
   display: inline-block;
   background-color: #00c89e;
   font-family: Lato;
@@ -347,11 +346,11 @@ header .datos{
   margin-top: 30px;
 }
 
-.contactme a:hover{
+.contactme a:hover{ /* anchor hover */
   background-color: #1fad90;
 }
 
-footer{
+footer{ /* propiedades del pie de página */
   background-color: #323c53;
   width: auto;
   height: 380px;
@@ -359,7 +358,7 @@ footer{
   text-align: center;
 }
 
-footer span{
+footer span{ /* propiedades de los span */
   font-family: Montserrat;
   display: inline-block;
   float: left;
@@ -370,7 +369,7 @@ footer span{
   color: white;
 }
 
-footer p{
+footer p{ /* propiedades de los dos párrafos dentro de footer */
   display: inline-block;
   float: left;
   font-family: Lato;
@@ -380,24 +379,28 @@ footer p{
   margin-top: 40px;
   margin-left: 115px;
 }
-
-footer img{
+footer .iconos{ /* div iconos */
   display: inline-block;
-  float: left;
-  margin-top: 50px;
-  margin-left:100px;
-  width: 4%;
+  width: 300px;
+  height: 100px;
+  font-size: 150%;
+  margin-top: 150px;
+  margin-left: -1280px;
 }
 
-footer .dos{
-  display: inline-block;
-  float: left;
-  margin-top: 50px;
-  margin-left:10px;
-  width: 4%;
+footer .iconos .fa-facebook , .fa-google-plus, .fa-twitter, .fa-linkedin, .fa-dribbble{
+  padding: 10px 0 5px 0;
+  border-radius: 50%;
+  border: 1.5px solid white;
+  width: 48px;
+  height: 33px;
 }
 
-footer .parrafo{
+footer .iconos a:hover{ /* anchor dentro del div iconos */
+  color:  #00c89e;
+}
+
+footer .parrafodos { /*último párrafo*/
   display: inline-block;
   float: left;
   font-family: Lato;
@@ -405,17 +408,18 @@ footer .parrafo{
   color: white;
   width: 350px;
   margin-top: 40px;
-  margin-left: 120px;
+  margin-left: 510px;
 }
 
-footer p a{
+footer p a{ /* anchor dentro del párrafo /*/
   color: #00c89e;
 }
-footer p a:hover{
+
+footer p a:hover{ /* anchor hover */
   text-decoration:underline;
 }
 
-footer h4{
+footer h4{ /*cierre */
   display: inline-block;
   font-family: Lato;
   font-weight: normal;
@@ -423,5 +427,4 @@ footer h4{
   float: left;
   margin-left: 480px;
   margin-top:  100px;
-
 }
